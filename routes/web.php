@@ -31,3 +31,4 @@ Route::patch('/todos/{id}', [TodosController::class, 'update'])->name('todos-upd
 
 // Categories
 Route::resource('categories', CategoryController::class);
+//Route::get('/categories', TodosController::class . '@index')->name('categories');
